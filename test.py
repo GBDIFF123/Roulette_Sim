@@ -36,16 +36,6 @@ def Random_Color_Message(Message, speed):
 def Clear_window():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def Check_Bet(Bet, Money):
-    try:
-        int(Bet)
-    except:
-        return 1
-    if Bet > Money:
-        return 1
-    else:
-        return 2
-
 #Play the game
 Money = 10000
 Bet = 0
