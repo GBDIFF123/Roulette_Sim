@@ -1,8 +1,6 @@
-from http.client import CONTINUE
 import random
 import os
 import time
-from wsgiref.types import StartResponse
 
 def RollTheWheel():
     RollNum = random.randint(-1,36)
